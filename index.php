@@ -26,6 +26,21 @@
 
       Pour préciser les paramètres que vous souhaitons passer à notre vue, la méthode render attend un tableau assocatif, contenant en clé l'indentifiant du paramùètre que nous ouhaitons utiliser dans notre vue, et en valeur la vairiable provenant de notre controller.
     </p>
+
+    <h2>L'essentiel</h2>
+    La plus grande partie de notre application trouvera sa place dans deux répertoires:
+    == /config
+    == /src
+
+    Le répertoitre "templates" peut aussi etre important si notre application affiche des pages HTML.
+
+    Pour lancer le serveur 'Symfony', il suffit de taper la commande :
+     ==> symfony server:start -d.
+     ==> symfony serve -d (peut fonctionner elle aussi)
+
+    les routes de notre application seront rattachées à des controllers.
+
+    Pour rendre des pades "HTML", nous utilissrons le moteur de template "twig" qui génère des pages HTML avec des ^paramètres passés depuis la fonction "render".
  
   </body>
 </html>
